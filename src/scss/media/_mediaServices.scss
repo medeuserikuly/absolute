@@ -1,0 +1,27 @@
+
+
+@media (max-width: 576px) {
+    .services {
+        // .services__wrapper
+        &__wrapper {
+            margin-top: 15px;
+        }
+    
+        // .services__items
+        &__items {
+            justify-content: center;
+            display: grid;
+            grid-template-columns: repeat(2, 150px);
+            justify-items: center;
+            gap: 20px;
+        }
+    
+        // .services__item
+        &__item {
+            width: 150px;
+            img {
+                width: 150px;
+            }
+        }
+    }
+}

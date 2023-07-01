@@ -1,0 +1,43 @@
+.contacts {
+    background: #F8F8F8;
+    padding: 50px 0;
+    // .contacts__wrapper
+    &__wrapper {
+        display: flex;
+        gap: 30px;
+        align-items: center;
+    }
+    &__img {
+        max-width: 600px;
+    }
+    // .contacts__descr
+    &__descr {
+        // .contacts__descr_phone
+        &_phone {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-top: 15px;
+            text-transform: none;
+            color: #232323;
+        }
+        // .contacts__descr_emal
+        &_emal {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-top: 15px;
+            text-transform: none;
+            color: #232323;
+        }
+        // .contacts__descr_place
+        &_place {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-top: 15px;
+            text-transform: none;
+            color: #232323;
+        }
+    }
+}

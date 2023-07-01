@@ -1,0 +1,60 @@
+.promo {
+    max-height: 400px;
+    margin-top: 110px;
+
+    &__wrapper {
+        max-width: 600px;
+    }
+
+    // .promo__title
+    &__title {
+        color: #232323;
+        font-size: 52px;
+        font-weight: 700;
+    }
+
+    // .promo__text
+    &__text {
+        margin-top: 15px;
+        color: #232323;
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    &__btns {
+        margin-top: 40px;
+        display: flex;
+        gap: 20px;
+    }
+
+    &__btn {
+        display: block;
+
+        width: 183px;
+        height: 35px;
+        padding: 11px;
+        text-align: center;
+        background: #0F265C;
+
+        color: #FFF;
+        font-size: 11px;
+        text-transform: uppercase;
+        transition: all 0.3s;
+        &:hover {
+            background:#FFF;
+            color: #232323;
+            border: 1px solid #0F265C;
+        }
+
+        &-price {
+            background: #fff;
+            border: 1px solid #0F265C;
+            color: #232323;
+            &:hover {
+                background: #0F265C;
+                color: #FFF;
+                border: none;
+            }
+        }
+    }
+}

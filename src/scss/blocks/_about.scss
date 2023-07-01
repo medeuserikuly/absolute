@@ -1,0 +1,56 @@
+.about {
+    margin-top: 100px;
+
+    // .about__text
+    &__text {
+        margin-top: 10px;
+        color: #232323;
+        font-size: 18px;
+        font-weight: 400;
+        width: 650px;
+
+        span {
+            display: block;
+            margin-top: 10px;
+        }
+    }
+
+    // .about__statistics
+    &__statistics {
+        margin-top: 50px;
+        display: flex;
+        gap: 150px;
+    }
+
+    // .about__item
+    &__item {
+
+        // .about__item_title
+        &_title {
+            color: #363636;
+            font-size: 16px;
+            font-weight: 700;
+            img {
+                margin-right: 5px;
+            }
+        }
+
+        // .about__item_number
+        &_number {
+            color: #363636;
+            font-size: 62px;
+            font-weight: 700;
+        }
+
+        // .about__item_descr
+        &_descr {
+            color: #363636;
+            font-size: 16px;
+            font-weight: 400;
+        }
+    }
+}
+
+.container {}
+
+.title {}

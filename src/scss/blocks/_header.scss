@@ -1,0 +1,59 @@
+// body._lock {
+//     overflow: hidden;
+// }
+
+.header {
+    // position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+    // background-color: #2aa9db;
+    &__container {
+        // max-width: 1200px;
+        margin: 0 auto;
+        display: flex;
+        // padding: 0 30px;
+        align-items: center;
+        justify-content: space-between;
+        min-height: 70px;
+    }
+    &__logo {
+        position: relative;
+        z-index: 5;
+        caret-color: transparent;
+        color:#232323;
+        font-size: 30px;
+    }
+    .menu {
+        &__body {
+            display: flex;
+            gap: 10px;
+        }
+        &__email{
+            display: block;
+            color: #232323;
+            margin-right: 50px;
+        }
+        &__phone {
+            display: block;
+            color: #232323;
+        }
+    }
+}
+
+
+
+
+
+// Uncomment if you need to fix header
+/* .fixed__nav {
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    background: white;
+    z-index: 10;
+    padding: 10px 0;
+    transition: all 0.3s ease;
+} */

@@ -1,0 +1,47 @@
+.services {
+    margin-top: 20px;
+    padding: 20px 0;
+    background: #F8F8F8;
+
+    // .services__wrapper
+    &__wrapper {
+        margin-top: 30px;
+    }
+
+    // .services__items
+    &__items {
+        display: flex;
+        justify-content: space-between;
+        // gap: 15px;
+        overflow: hidden;
+    }
+
+    // .services__item
+    &__item {
+        width: 200px;
+        display: flex;
+        gap: 8px;
+        flex-direction: column;
+        text-align: center;
+
+        font-size: 15px;
+        color: #232323;
+    }
+}
+
+
+.prev-button,
+.next-button {
+    background-color: transparent;
+    font-size: 24px;
+    color: #232323;
+    cursor: pointer;
+}
+
+.prev-button {
+    left: 10px;
+}
+
+.next-button {
+    right: 10px;
+}

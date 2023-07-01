@@ -1,0 +1,20 @@
+.partners {
+    padding: 50px 0;
+    background: #F8F8F8;
+    // .partners__text
+    &__text {
+        margin-top: 10px;
+        color: #232323;
+        font-size: 16px;
+        font-weight: 400;
+    }
+
+    // .partners__wrapper
+    &__wrapper {
+        margin-top: 40px;
+        display: grid;
+        grid-template-columns: repeat(3, 350px);
+        justify-items: center;
+        gap: 40px;
+    }
+}

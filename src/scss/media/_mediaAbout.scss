@@ -1,0 +1,44 @@
+@media (max-width: 576px) {
+    .about {
+        margin-top: 50px;
+    
+        // .about__text
+        &__text {
+            font-size: 14px;
+            width: 340px;
+            text-align: justify;
+    
+            span {
+                display: none;
+            }
+        }
+    
+        // .about__statistics
+        &__statistics {
+            margin-top: 30px;
+            gap: 20px;
+        }
+    
+        // .about__item
+        &__item {
+    
+            // .about__item_title
+            &_title {
+                font-size: 16px;
+                img {
+                    margin-right: 0;
+                }
+            }
+    
+            // .about__item_number
+            &_number {
+                font-size: 32px;
+            }
+    
+            // .about__item_descr
+            &_descr {
+                font-size: 14px;
+            }
+        }
+    }
+}

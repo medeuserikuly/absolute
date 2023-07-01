@@ -1,0 +1,27 @@
+.work {
+    padding: 120px 0;
+
+    // .work__items
+    &__items {
+        display: flex;
+        gap: 20px;
+    }
+
+    // .work__item
+    &__item {
+        margin-top: 30px;
+        img {
+            display: block;
+            margin: 0 auto;
+        }
+
+        // .work__item_text
+        &_text {
+            margin-top: 20px;
+            color: #232323;
+            text-align: center;
+            font-size: 16px;
+            font-weight: 400;
+        }
+    }
+}

@@ -1,0 +1,15 @@
+
+
+@media (max-width: 576px) {
+    .work {
+        padding: 60px 0;
+    
+        // .work__items
+        &__items {
+            display: grid;
+            grid-template-columns: repeat(2, 160px);
+            justify-content: center;
+        }
+    
+    }
+}
